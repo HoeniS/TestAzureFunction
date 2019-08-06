@@ -12,9 +12,9 @@ using Microsoft.Extensions.Configuration;
 
 namespace AzureFunctionsTest
 {
-    public static class Function1
+    public static class HeyDude
     {
-        [FunctionName("Function1")]
+        [FunctionName("HeyDude")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
