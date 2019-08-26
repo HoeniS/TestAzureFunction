@@ -10,11 +10,11 @@ using Newtonsoft.Json;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.AzureAppConfiguration;
 
-namespace AuthenticationTest
+namespace AzureFunctionsTest
 {
-    public static class Function1
+    public static class MultipleACs
     {
-        [FunctionName("Function1")]
+        [FunctionName("MultipleACs")]
         public static async Task<IActionResult> Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req, ILogger log)
         {
