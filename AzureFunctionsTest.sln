@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsTest", "AzureFunctionsTest\AzureFunctionsTest.csproj", "{796ECBF9-A479-4DEC-82D8-3D55C8D3C6DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionsTest", "AzureFunctionsTest\AzureFunctionsTest.csproj", "{796ECBF9-A479-4DEC-82D8-3D55C8D3C6DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondFunction", "SecondFunction\SecondFunction.csproj", "{2E954A59-CBAB-44DC-9F3F-717E596DB4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationTest", "AuthenticationTest\AuthenticationTest.csproj", "{7F05F5EF-D9D3-427E-809D-D475361CC6F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{796ECBF9-A479-4DEC-82D8-3D55C8D3C6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{796ECBF9-A479-4DEC-82D8-3D55C8D3C6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{796ECBF9-A479-4DEC-82D8-3D55C8D3C6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E954A59-CBAB-44DC-9F3F-717E596DB4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E954A59-CBAB-44DC-9F3F-717E596DB4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E954A59-CBAB-44DC-9F3F-717E596DB4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E954A59-CBAB-44DC-9F3F-717E596DB4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F05F5EF-D9D3-427E-809D-D475361CC6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F05F5EF-D9D3-427E-809D-D475361CC6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F05F5EF-D9D3-427E-809D-D475361CC6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F05F5EF-D9D3-427E-809D-D475361CC6F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

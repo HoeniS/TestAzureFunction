@@ -2,10 +2,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="3.0.7" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.AzureAppConfiguration" Version="2.0.0-preview-009200001-1437" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureAppConfiguration" Version="2.0.0-preview-009470001-1371" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.29" />
   </ItemGroup>
   <ItemGroup>
